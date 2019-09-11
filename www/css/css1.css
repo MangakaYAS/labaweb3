@@ -1,0 +1,294 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: PT-Sans;
+    scr: url("../fonts/pt-sans.ttf");
+}
+@font-face {
+    font-family: PT-Proxima-Nova;
+    scr: url("../fonts/ProximaNova-Light.ttf");
+}
+body, .site {background: #d6d6d6;}
+.site > .header {
+    background: linear-gradient(90deg, rgba(26,84,231,1) 0%, rgba(26,84,231,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    height: 75px;
+}
+.header > .block1 {
+    user-select: none;
+    background: #f6f6f6;
+    width: 1200px;
+}
+.block1 > .h1 {
+    cursor: pointer;
+    font-family: "PT-Sans", arial;
+    font-size: 22px;
+    line-height: 75px;
+    height: 75px;
+    background: #1a54e7;
+    width: 180px;
+}
+.block1 > .h2 {
+    cursor: pointer;
+    background: url("../images/loop.png") no-repeat;
+    background-size: cover;
+    width: 70px;
+}
+.block1 > .h3 {width: 960px;}
+.h3 > div {
+    font-size: 17px;
+    font-family: "PT-Sans", arial;
+}
+.h3 > .h31 {
+    width: 400px;
+}
+.h3 > .h32 {
+    width: 560px;
+}
+.h31 > div {
+    cursor: pointer;
+    line-height: 75px;
+    color: #b1b1b1;
+    margin: 0 17px;
+}
+.h32 > .h32el {
+    cursor: pointer;
+    line-height: 75px;
+    color: #3864e9;
+    padding: 0 17px;
+}
+.h32 > div:hover {
+    box-shadow:0px -3px 0px 0px #1a54e7 inset;
+    -webkit-box-shadow:0px -3px 0px 0px #1a54e7 inset;
+    -moz-box-shadow:0px -3px 0px 0px #1a54e7 inset;
+}
+.points {
+    font-family: "Bodoni MT";
+    cursor: pointer;
+    line-height: 55px;
+    font-size: 45px;
+    color: #3864e9;
+    padding: 0 17px;
+}
+.site > .content {background: #d6d6d6;}
+.content > .block2 {
+    max-width: 2024px;
+    user-select: none;
+    background: url("../images/slider.png") no-repeat;
+    background-size: cover;
+    height: 815px;
+    width: 2024px;
+}
+.block2 > .b21 {
+    user-select: none;
+    height: 750px;
+    max-width: 2024px;
+}
+.div1 > div, .div2 > div{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    color: #505050;
+    font-size: 50px;
+    line-height: 55px;
+    font-family: Consolas;
+}
+.b211 {margin-right: 245px;}
+.b212 {margin-left: 245px;}
+.block2 > .b22 {width: 2024px;}
+.block2 > .b22 > .b222 {height: 65px;}
+.b22 > .b221, .b223 {width: 424px;}
+.b22 > .b222 {width: 1200px;}
+.b222 > .b2221 {
+    font-size: 16px;
+    background: #1a54e7;
+    width: 90px;
+    height: 40px;
+    font-family: "PT-Sans", arial;
+    line-height: 40px;
+}
+.b222 > .b2222 > .b22221 {
+    color: #6e6e6d;
+    line-height: 40px;
+    font-family: "PT-Sans", arial;
+    margin-right: 5px;
+}
+.b222 > .b2222 > .b22222 {
+    cursor: pointer;
+    color: #1745be;
+    line-height: 40px;
+    font-family: "PT-Sans", arial;
+}
+.content > .block3 {
+    max-width: 2024px;
+    background: #f6f6f6;
+    height: 460px;
+    width: 2024px;
+}
+.block3 > div {
+    width: 580px;
+    height: 380px;
+    margin-top: 30px;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.b31 > .b311 {
+    height: 260px;
+    width: 578px;
+    background: url("../images/box2.png") no-repeat;
+    background-size: cover;
+}
+.b32 > .b321 {
+    height: 260px;
+    width: 578px;
+    background: url("../images/box1.png") no-repeat;
+    background-size: cover;
+}
+.b312, .b322 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-family: "Serif";
+}
+.b313, .b323 {
+    font-size: 16px;
+}
+.b3131, .b3231 {
+    margin-right: 5px;
+    color: #6d6e71;
+}
+.b3132, .b3232 {
+    color: #4c71e9;
+    cursor: pointer;
+}
+.content > .block4 {
+    max-width: 2024px;
+    height: 1370px;
+    width: 2024px;
+}
+.block4 > .b4 {
+    height: 100%;
+    width: 1200px;
+}
+.b4 > .b41 {
+    height: 400px;
+    background: url("../images/box3.png") no-repeat;
+    background-size: cover;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.b41 > div {
+    user-select: none;
+    font-size: 15px;
+    font-family: "PT-Sans", arial;
+    margin-top: 350px;
+    color: #636565;
+}
+.b41 > .b412 {
+    cursor: pointer;
+    color: #1746bf;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+.b4 > .b42 {
+    height: 800px;
+    display: inline-grid;
+    grid: auto / repeat(3, 410px);
+}
+.b42 .b4211 {
+    height: 253px;
+    width: 381px;
+    background: url("../images/box2.png") no-repeat;
+    background-size: cover;
+}
+.b4212 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-family: "Serif";
+}
+.b4213 {font-size: 16px;}
+.b42131 {
+    margin-right: 5px;
+    color: #6d6e71;
+}
+.b42132 {
+    color: #4c71e9;
+    cursor: pointer;
+}
+#back1 {
+    background: url("../images/box4.png") no-repeat;
+    background-size: cover;
+}
+#back2 {
+    background: url("../images/box5.png") no-repeat;
+    background-size: cover;
+}
+#back3 {
+    background: url("../images/box6.png") no-repeat;
+    background-size: cover;
+}
+#back4 {
+    background: url("../images/box7.png") no-repeat;
+    background-size: cover;
+}
+#back5 {
+    background: url("../images/box8.png") no-repeat;
+    background-size: cover;
+}
+#back6 {
+    background: url("../images/box9.png") no-repeat;
+    background-size: cover;
+}
+.b42 > div{
+    height: 360px;
+    width: 380px;
+}
+.b42 > .b421, .b422, .b423{
+    margin-bottom: 60px;
+}
+.content > .block5 {
+    max-width: 2024px;
+    background: url("../images/newsletter.png");
+    background-size: cover;
+    height: 415px;
+    width: 2024px;
+    font-family: "Serif";
+}
+.block5 > .b51 {
+    user-select: none;
+    margin-top: -180px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.b51 > span:nth-child(1){font-size: 60px;}
+.b51 > span:nth-child(2){
+    color: #6fa8f0;
+    font-size: 32px;
+}
+.b52 {
+    user-select: none;
+    cursor: pointer;
+    font-family: "PT-Sans", arial;
+    font-size: 20px;
+    color: #3864e9;
+    height: 51px;
+    width: 134px;
+    line-height: 50px;
+    border-radius: 100px;
+    margin-left: 1090px;
+    margin-top: 49px;
+}
+.bot > .block6 {
+    max-width: 2024px;
+    height: 340px;
+    width: 2024px;
+}
+.block6 > div {
+    color: #656669;
+    font-family: "PT-Proxima-Nova", arial;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
